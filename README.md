@@ -25,9 +25,9 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 #### Usage
 
-Examples are the best way to demonstrate usage
+> Examples are the best way to demonstrate usage
 
-1. "Hello World" :
+##### Hello World
 
 ````javascript
 (function(){
@@ -38,7 +38,7 @@ thanthi.send("sayhello");
 
 ````
 
-2. "Hello World" with parameters :
+##### Hello World with parameters
 
 ````javascript
 (function(helloText){
@@ -49,18 +49,8 @@ thanthi.send("sayhello");
 
 ````
 
-3. "Hello World" with parameters :
 
-````javascript
-(function(helloText){
-    alert("hello world" + helloText);
-}).thanthi("sayhello", " !!!!");
-
-thanthi.send("sayhello");
-
-````
-
-4. DOM Eventing :
+##### DOM Eventing
 
 ```javascript
 
@@ -72,6 +62,22 @@ thanthi.send("sayhello");
 
 $(document).ready(function(){
    thanthi.send("dom.ready") ;
+});
+
+```
+
+##### Passing Message Data
+
+``` javascript
+(function(){
+    var some = this.messageData;
+    document.getElementById("say-helloworld").addEventListener("click",function(e){
+        alert("Please say hello !!!");
+    });
+}).thanthi("dom.ready");
+
+$(document).ready(function(){
+   thanthi.send("dom.ready",{some:'data'});
 });
 
 ```
