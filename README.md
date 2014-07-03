@@ -1,9 +1,6 @@
 thanthi
 =======
 
-"Thanthi" is a word in "Tamil" == Telegraph.  Thanthi is a simple messaging pub/sub library
-===
-
 ### Summary
 
 Often you would come across scenarios of ```JavaScript``` modules dependant on loading of the other ```JavaScript``` modules.
