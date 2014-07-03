@@ -21,9 +21,10 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 #### Installation
 
-[/dist/thanthi.js](Download the full version of Thanthi)
+* <a download="thanthi.min.js" href="/dist/thanthi.min.js">Get Minified & Gzipped </a>
 
-[/dist/thanthi.min.js](Download the minified version of Thanthi)
+* <a download="thanthi.js" href="/dist/thanthi.js">Full library </a>
+
 
 #### Usage
 
