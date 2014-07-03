@@ -25,6 +25,12 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 #### Usage
 
+##### Receiver :
+    Wrap your code and listen to ```(function(){/* do something with message*/}).thanthi("message");``` Th
+
+##### Sender :
+    Simply send a message ```thanthi.send("message");```
+
 > Examples are the best way to demonstrate usage
 
 ##### Hello World
