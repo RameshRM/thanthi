@@ -25,7 +25,7 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 * <a download="thanthi.js" href="/dist/thanthi.js">Full library </a>
 
-
+===
 #### Usage
 
 ##### Receiver :
