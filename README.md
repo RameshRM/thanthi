@@ -20,8 +20,10 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 `Thanthi` to the rescue. `Thanthi` is a simple messaging based library modeled after a "pub/sub" concept.
 
 #### Installation
-[dist/thanthi.js](Download the full version of Thanthi)
-[dist/thanthi.min.js](Download the minified version of Thanthi)
+
+[./dist/thanthi.js](Download the full version of Thanthi)
+
+[./dist/thanthi.min.js](Download the minified version of Thanthi)
 
 #### Usage
 
