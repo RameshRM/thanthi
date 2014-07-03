@@ -7,7 +7,7 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 #### Common problem :
 
-1. Bind dom specific events for a ```HTML <div>Some Hello World</div>``
+1. Bind dom specific events for a ```HTML <div>Some Hello World</div>```
 2. Div has not loaded yet, or ```document.Ready``` is not fired yet.
 3. You would see a javascript error for unknown div
 
