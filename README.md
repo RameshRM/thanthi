@@ -21,9 +21,9 @@ Often you would come across scenarios of ```JavaScript``` modules dependant on l
 
 #### Installation
 
-[./dist/thanthi.js](Download the full version of Thanthi)
+[/dist/thanthi.js](Download the full version of Thanthi)
 
-[./dist/thanthi.min.js](Download the minified version of Thanthi)
+[/dist/thanthi.min.js](Download the minified version of Thanthi)
 
 #### Usage
 
